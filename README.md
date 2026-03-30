@@ -3,7 +3,7 @@
 **Universidad de la Costa | Data Mining**  
 **Actividad I: Aprendizaje Supervisado vs No Supervisado**
 
----
+
 
 ##  Contenido del repositorio
 
@@ -13,7 +13,7 @@
 | `generar_dataset.py` | Código Python para reproducir el dataset |
 | `README.md` | Documentación del dataset |
 
----
+
 
 ##  Descripción del problema
 
@@ -21,7 +21,7 @@ La Universidad está interesada en predecir, de manera temprana, qué estudiante
 
 El dataset simula información histórica de estudiantes de pregrado con variables demográficas, académicas y financieras.
 
----
+
 
 ##  Descripción de las variables
 
@@ -39,7 +39,7 @@ El dataset simula información histórica de estudiantes de pregrado con variabl
 | `credito_educativo` | Categórico | Si / No | Indica si tiene crédito o préstamo educativo |
 | `desercion` | Categórico | **Si / No** | **Variable objetivo** — indica si el estudiante desertó |
 
----
+
 
 ##  Estadísticas generales
 
@@ -49,7 +49,7 @@ El dataset simula información histórica de estudiantes de pregrado con variabl
   - Desertó (Si): ≈ 189 estudiantes (31.5 %)
   - No desertó (No): ≈ 411 estudiantes (68.5 %)
 
----
+
 
 ##  Valores nulos
 
@@ -65,7 +65,7 @@ Se introdujeron valores nulos de manera aleatoria en aproximadamente el **5 % de
 
 **Método:** Para cada columna se seleccionaron índices aleatorios usando `numpy.random.choice` y se reemplazaron con `NaN`.
 
----
+
 
 ##  Outliers (valores atípicos)
 
@@ -87,7 +87,7 @@ Se introdujeron deliberadamente valores atípicos en aproximadamente el **2 % de
 
 **Método:** Se seleccionaron índices aleatorios y se asignaron valores fuera del rango esperado usando `numpy.random.uniform` y `numpy.random.choice`.
 
----
+
 
 ##  Modelo de Machine Learning propuesto
 
@@ -104,7 +104,7 @@ Para este problema se propone un modelo de **aprendizaje supervisado de clasific
 - Funciona bien con variables mixtas (numéricas y categóricas).
 - Permite identificar factores de riesgo concretos para tomar decisiones de intervención.
 
----
+
 
 ## Cómo reproducir el dataset
 
@@ -120,15 +120,15 @@ pip install pandas numpy
 python generar_dataset.py
 
 # → Se generará: dataset_desercion.csv
-```
 
----
+
+
 
 ##  Integrantes del grupo
 iVAN CUERNTAS OSPIN9O -
 CAMILO ANDRES MENDOZA 
 
----
+
 
 ##  Referencias
 
