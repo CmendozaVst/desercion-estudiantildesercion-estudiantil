@@ -1,11 +1,11 @@
-# 📊 Dataset Sintético — Deserción Estudiantil
+#  Dataset Sintético — Deserción Estudiantil
 
 **Universidad de la Costa | Data Mining**  
 **Actividad I: Aprendizaje Supervisado vs No Supervisado**
 
 ---
 
-## 📁 Contenido del repositorio
+##  Contenido del repositorio
 
 | Archivo | Descripción |
 |---|---|
@@ -15,7 +15,7 @@
 
 ---
 
-## 🎯 Descripción del problema
+##  Descripción del problema
 
 La Universidad está interesada en predecir, de manera temprana, qué estudiantes tienen mayor riesgo de abandonar sus estudios durante el primer año académico, con el fin de implementar estrategias de apoyo y retención.
 
@@ -23,7 +23,7 @@ El dataset simula información histórica de estudiantes de pregrado con variabl
 
 ---
 
-## 📋 Descripción de las variables
+##  Descripción de las variables
 
 | Variable | Tipo | Rango / Valores | Descripción |
 |---|---|---|---|
@@ -41,7 +41,7 @@ El dataset simula información histórica de estudiantes de pregrado con variabl
 
 ---
 
-## 🔢 Estadísticas generales
+##  Estadísticas generales
 
 - **Total de registros:** 600
 - **Variables:** 11 (10 predictoras + 1 objetivo)
@@ -51,7 +51,7 @@ El dataset simula información histórica de estudiantes de pregrado con variabl
 
 ---
 
-## ❌ Valores nulos
+##  Valores nulos
 
 Se introdujeron valores nulos de manera aleatoria en aproximadamente el **5 % de los registros** de las siguientes columnas numéricas, simulando datos incompletos o no reportados:
 
@@ -67,7 +67,7 @@ Se introdujeron valores nulos de manera aleatoria en aproximadamente el **5 % de
 
 ---
 
-## ⚠️ Outliers (valores atípicos)
+##  Outliers (valores atípicos)
 
 Se introdujeron deliberadamente valores atípicos en aproximadamente el **2 % de los registros** para simular errores de captura o casos extremos:
 
@@ -89,7 +89,7 @@ Se introdujeron deliberadamente valores atípicos en aproximadamente el **2 % de
 
 ---
 
-## 🤖 Modelo de Machine Learning propuesto
+##  Modelo de Machine Learning propuesto
 
 Para este problema se propone un modelo de **aprendizaje supervisado de clasificación binaria**, dado que:
 
@@ -106,7 +106,7 @@ Para este problema se propone un modelo de **aprendizaje supervisado de clasific
 
 ---
 
-## ▶️ Cómo reproducir el dataset
+## Cómo reproducir el dataset
 
 ```bash
 # 1. Clonar el repositorio
@@ -124,17 +124,13 @@ python generar_dataset.py
 
 ---
 
-## 👥 Integrantes del grupo
-
-| Nombre | 
-|---|
-| _(Agrega tu nombre aquí)_ |
-| _(Agrega tu nombre aquí)_ |
-| _(Agrega tu nombre aquí)_ |
+##  Integrantes del grupo
+iVAN CUERNTAS OSPIN9O 
+CAMILO ANDRES MENDOZA 
 
 ---
 
-## 📚 Referencias
+##  Referencias
 
 - Pedregosa et al. (2011). *Scikit-learn: Machine Learning in Python*. JMLR 12.
 - Tinto, V. (1987). *Leaving College: Rethinking the Causes and Cures of Student Attrition*. University of Chicago Press.
