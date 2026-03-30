@@ -125,7 +125,7 @@ python generar_dataset.py
 ---
 
 ##  Integrantes del grupo
-iVAN CUERNTAS OSPIN9O 
+iVAN CUERNTAS OSPIN9O -
 CAMILO ANDRES MENDOZA 
 
 ---
