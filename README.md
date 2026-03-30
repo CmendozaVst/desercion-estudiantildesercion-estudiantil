@@ -108,7 +108,7 @@ Para este problema se propone un modelo de **aprendizaje supervisado de clasific
 
 ## Cómo reproducir el dataset
 
-```bash
+bash
 # 1. Clonar el repositorio
 git clone https://github.com/tu_usuario/desercion-estudiantil.git
 cd desercion-estudiantil
